@@ -1,0 +1,82 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #828282;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container {
+  width: 80%;
+  margin: 25px auto;
+}
+
+hr {
+  background-color: #828282;
+  width: 1060.604px;
+  height: 1px;
+  transform: rotate(0.031deg);
+  margin-left: 150px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 280px;
+  margin-top: 40px;
+}
+.box .title h1 {
+  color: var(--Black, #070707);
+  font-family: Gilroy-Bold;
+  font-size: 47.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box .information p {
+  color: var(--Black, #070707);
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box .language {
+  display: flex;
+  align-items: center;
+  transform: rotate(270deg);
+}
+.box .language a {
+  text-decoration: none;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box .language p {
+  color: #000;
+}
+
+.pictuare {
+  width: 943.612px;
+  height: 387px;
+  background-image: url(./BSPP2266.png);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.aboutme.html body {
+  background-color: #F6F6F6;
+}/*# sourceMappingURL=style.css.map */

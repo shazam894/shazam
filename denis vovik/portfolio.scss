@@ -1,0 +1,32 @@
+.brashura{
+    width: 936.24px;
+height: 510px;
+
+}
+.brashura1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .brashuraNAME{
+        margin-bottom: 70px;
+        margin-top: 20px;
+        color: var(--Black, #070707);
+text-align: center;
+font-family: Gilroy-Medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-decoration:underline;
+    }
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfoloio1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}

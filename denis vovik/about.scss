@@ -1,0 +1,48 @@
+body{
+    background-color: #F6F6F6;
+}
+.about{
+    .aboutinformation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .information1,
+        .information2,
+        .information3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            p{
+                color: var(--Black, #070707);
+font-family: Gilroy-Medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+        }
+        .information1{
+            margin-top: 20px;
+        }
+        
+        .h1{
+            margin-top: 100px;
+            width: 140px;
+            // margin: 0 auto;
+            h1{
+                color: var(--Black, #070707);
+            
+            font-family: Gilroy-Bold;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+    }
+}
+
+
+
+}

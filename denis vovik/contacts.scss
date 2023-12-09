@@ -1,0 +1,38 @@
+.fi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+    .bebra{
+        padding: 15px 10px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+    }
+}
+.ci{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.si{
+   display: flex;
+   justify-content: space-evenly; 
+   margin-top: 100px;
+   gap:50px;
+}
+.bi{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.thi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    gap: 3px;
+}
