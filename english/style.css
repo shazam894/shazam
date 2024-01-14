@@ -1,0 +1,150 @@
+body {
+  font-family: "Nyasha Sans";
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 921px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 521px) {
+  nav .btn {
+    display: none;
+  }
+}
+
+.btn {
+  margin-left: auto;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 2px solid #000;
+  background: var(--yellow, #FFE249);
+  padding: 16px 32px;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 921px) {
+  .nav-link {
+    display: none;
+  }
+}
+
+.burger {
+  display: none;
+}
+@media (max-width: 921px) {
+  .burger {
+    display: block;
+  }
+}
+
+.glav .contaier {
+  background-image: url(./hero-bg.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 260px;
+  text-align: center;
+  padding-left: 50px;
+}
+.box h1 {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 320px) {
+  .box h1 {
+    font-size: 35px;
+  }
+}
+.box h1 span {
+  color: var(--pink, #FF69CA);
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box p {
+  color: #000;
+  text-align: center;
+  font-family: Nyasha Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px 0 50px;
+}
+
+.about {
+  padding: 50px 0;
+}
+.about .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.about .card {
+  max-width: 400px;
+  width: 100%;
+  border: 2px solid #000;
+  background: linear-gradient(0deg, #EE75AB 0%, #EE75AB 100%), #FFF;
+  box-shadow: 4px 4px 0px 0px #000;
+}
+.about .card img {
+  width: 95%;
+  display: block;
+  margin: -100 auto 0;
+  text-align: center;
+  padding: 30px 15px;
+}
+.about .card p {
+  color: #000;
+  text-align: center;
+  font-family: Nyasha Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 100px;
+}/*# sourceMappingURL=style.css.map */
